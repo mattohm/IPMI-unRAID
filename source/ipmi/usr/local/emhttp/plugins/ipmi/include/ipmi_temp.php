@@ -74,7 +74,7 @@ if (!empty($disp_sensors)){
  $rc_color = 'green';
  if ($rc_code != 0)
    $rc_color = 'red';
- $displays[] = "<span title='Borg'><font color='$bu_color'>rc_date</font><small>RClone</small></span>";
+ $displays[] = "<span title='RClone'><font color='$bu_color'>rc_date</font><small>RClone</small></span>";
 
 }
 if ($displays)
