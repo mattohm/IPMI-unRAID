@@ -1,5 +1,0 @@
-Menu="OtherSettings"
-Icon="heartbeat"
-Title="IPMI"
-Type="xmenu"
-Tabs="true"
