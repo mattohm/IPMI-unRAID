@@ -1,5 +1,4 @@
 <?xml version='1.0' standalone='yes'?>
-
 <!DOCTYPE PLUGIN [
 <!ENTITY name      "ipmi">
 <!ENTITY author    "mattohm">
@@ -30,7 +29,7 @@ This plugin uses freeipmi to display sensor readings
 The 'remove' script.
 -->
 <FILE Run="/bin/bash" Method="remove">
-
+<INLINE>
 removepkg &plgPATH;/*.txz
 
 echo ""
